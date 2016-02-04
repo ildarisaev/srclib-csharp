@@ -6,6 +6,7 @@ sudo: true
 
 before_install:
   - git submodule update --init
+  - pwd
   - ls -al testdata/case/Proxy
   - wget http://download.savannah.gnu.org/releases/libunwind/libunwind-1.1.tar.gz
   - tar -xvf libunwind-1.1.tar.gz
@@ -26,5 +27,5 @@ install:
 
 script:
   - dnu restore Srclib.Nuget/project.json
-  - srclib test
+  - srclib -v test
  
