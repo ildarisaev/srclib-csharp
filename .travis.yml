@@ -17,6 +17,7 @@ before_install:
   - sudo apt-get install gettext libssl-dev libcurl4-openssl-dev zlib1g libicu-dev uuid-dev
   - dnvm upgrade -r coreclr
   - pwd
+  - which dnu
   - dnu restore Srclib.Nuget/project.json
   - mkdir -p $HOME/bin
   - mkdir $HOME/.srclib
@@ -25,6 +26,7 @@ before_install:
   - gunzip -c $HOME/bin/srclib.gz > $HOME/bin/srclib
   - sudo chmod +x $HOME/bin/srclib
   - ln --symbolic . $HOME/.srclib/srclib-csharp
+  - srclib toolchain list
   - srclib -v test
 
 install:
