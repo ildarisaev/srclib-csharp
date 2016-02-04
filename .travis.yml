@@ -10,8 +10,9 @@ before_install:
   - ls -al testdata/case/Proxy
   - wget http://download.savannah.gnu.org/releases/libunwind/libunwind-1.1.tar.gz
   - tar -xvf libunwind-1.1.tar.gz
-  - cd libunwind-1.1 && ./configure && make
+  - cd libunwind-1.1 && ./configure && make > /dev/null 2>&1
   - sudo make install
+  - cd ..
   - curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
   - sudo apt-get install gettext libssl-dev libcurl4-openssl-dev zlib1g libicu-dev uuid-dev
   - dnvm upgrade -r coreclr
