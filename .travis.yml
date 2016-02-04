@@ -1,0 +1,24 @@
+language: csharp
+
+solution: Srclib.Nuget.sln
+
+sudo: true
+
+before_install:
+  - curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
+  - apt-get install libunwind8 gettext libssl-dev libcurl4-openssl-dev zlib1g libicu-dev uuid-dev
+  - dnvm upgrade -r coreclr
+
+install:
+  - mkdir -p $HOME/bin
+  - mkdir $HOME/.srclib
+  - export PATH=$PATH:$HOME/bin
+  - curl -Lo $HOME/bin/srclib.gz https://srclib-release.s3.amazonaws.com/srclib/0.2.0/linux-amd64/srclib.gz 
+  - gunzip -c $HOME/bin/srclib.gz > $HOME/bin/srclib
+  - sudo chmod +x $HOME/bin/srclib
+  - ln --symbolic . $HOME/.srclib/srclib-csharp
+
+script:
+  - dnu restore Srclib.Nuget/project.json
+  - srclib test
+
