@@ -24,5 +24,6 @@ install:
 
 script:
   - dnu restore Srclib.Nuget/project.json
+  - git submodule update --init
   - srclib test
  
