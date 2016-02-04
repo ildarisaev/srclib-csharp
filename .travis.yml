@@ -5,6 +5,8 @@ solution: Srclib.Nuget.sln
 sudo: true
 
 before_install:
+  - git submodule update --init
+  - ls -al testdata/case/Proxy
   - wget http://download.savannah.gnu.org/releases/libunwind/libunwind-1.1.tar.gz
   - tar -xvf libunwind-1.1.tar.gz
   - cd libunwind-1.1 && ./configure && make
@@ -24,6 +26,5 @@ install:
 
 script:
   - dnu restore Srclib.Nuget/project.json
-  - git submodule update --init
   - srclib test
  
