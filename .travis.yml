@@ -28,6 +28,7 @@ install:
   - srclib -v test
 
 script:
+  - pwd
   - dnu restore Srclib.Nuget/project.json
   - srclib -v test
  
