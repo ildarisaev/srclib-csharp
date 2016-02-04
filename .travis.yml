@@ -15,8 +15,6 @@ before_install:
   - curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
   - sudo apt-get install gettext libssl-dev libcurl4-openssl-dev zlib1g libicu-dev uuid-dev
   - dnvm upgrade -r coreclr
-
-install:
   - mkdir -p $HOME/bin
   - mkdir $HOME/.srclib
   - export PATH=$PATH:$HOME/bin
@@ -26,6 +24,9 @@ install:
   - ln --symbolic . $HOME/.srclib/srclib-csharp
   - dnu restore Srclib.Nuget/project.json
   - srclib -v test
+
+install:
+  - pwd
 
 script:
   - pwd
