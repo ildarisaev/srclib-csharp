@@ -21,6 +21,7 @@ before_install:
   - which dnu
   - dnu restore Srclib.Nuget/project.json
   - mkdir -p $HOME/bin
+  - rm -rf $HOME/.srclib/
   - mkdir $HOME/.srclib/
   - mkdir $HOME/.srclib/sourcegraph.com
   - mkdir $HOME/.srclib/sourcegraph.com/sourcegraph
