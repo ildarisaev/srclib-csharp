@@ -31,6 +31,7 @@ before_install:
   - srclib toolchain list
   - cd testdata/case/Proxy
   - srclib config
+  - dnvm list
   - dnx --version
   - dnx --help
   - dnx -p ../../../Srclib.Nuget/project.json run scan
