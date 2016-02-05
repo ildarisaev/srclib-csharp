@@ -5,8 +5,8 @@
       "Name": "Startup",
       "Kind": "class",
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "DefStart": 256,
-      "DefEnd": 263,
+      "DefStart": 263,
+      "DefEnd": 270,
       "Exported": true,
       "Data": {
         "FmtStrings": {
@@ -37,8 +37,8 @@
       "Name": "app",
       "Kind": "param",
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "DefStart": 320,
-      "DefEnd": 323,
+      "DefStart": 329,
+      "DefEnd": 332,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -69,8 +69,8 @@
       "Name": "host",
       "Kind": "local",
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "DefStart": 403,
-      "DefEnd": 407,
+      "DefStart": 415,
+      "DefEnd": 419,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -101,8 +101,8 @@
       "Name": "options",
       "Kind": "local",
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "DefStart": 480,
-      "DefEnd": 487,
+      "DefStart": 494,
+      "DefEnd": 501,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -133,8 +133,8 @@
       "Name": "port",
       "Kind": "local",
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "DefStart": 450,
-      "DefEnd": 454,
+      "DefStart": 463,
+      "DefEnd": 467,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -165,8 +165,8 @@
       "Name": "scheme",
       "Kind": "local",
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "DefStart": 360,
-      "DefEnd": 366,
+      "DefStart": 371,
+      "DefEnd": 377,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -197,8 +197,8 @@
       "Name": "Configure",
       "Kind": "method",
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "DefStart": 290,
-      "DefEnd": 299,
+      "DefStart": 299,
+      "DefEnd": 308,
       "Exported": true,
       "Data": {
         "FmtStrings": {
@@ -230,80 +230,80 @@
       "DefPath": "Microsoft.AspNet.Proxy.Samples|Microsoft.AspNet.Proxy.Startup+Configure(Microsoft.AspNet.Proxy.Samples|IApplicationBuilder)!app",
       "Def": true,
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "Start": 320,
-      "End": 323
+      "Start": 329,
+      "End": 332
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy.Samples|Microsoft.AspNet.Proxy.Startup+Configure(Microsoft.AspNet.Proxy.Samples|IApplicationBuilder)!app",
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "Start": 640,
-      "End": 643
+      "Start": 660,
+      "End": 663
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy.Samples|Microsoft.AspNet.Proxy.Startup+Configure(Microsoft.AspNet.Proxy.Samples|IApplicationBuilder)!host$0",
       "Def": true,
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "Start": 403,
-      "End": 407
+      "Start": 415,
+      "End": 419
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy.Samples|Microsoft.AspNet.Proxy.Startup+Configure(Microsoft.AspNet.Proxy.Samples|IApplicationBuilder)!host$0",
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "Start": 579,
-      "End": 583
+      "Start": 596,
+      "End": 600
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy.Samples|Microsoft.AspNet.Proxy.Startup+Configure(Microsoft.AspNet.Proxy.Samples|IApplicationBuilder)!options$0",
       "Def": true,
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "Start": 480,
-      "End": 487
+      "Start": 494,
+      "End": 501
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy.Samples|Microsoft.AspNet.Proxy.Startup+Configure(Microsoft.AspNet.Proxy.Samples|IApplicationBuilder)!options$0",
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "Start": 653,
-      "End": 660
+      "Start": 673,
+      "End": 680
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy.Samples|Microsoft.AspNet.Proxy.Startup+Configure(Microsoft.AspNet.Proxy.Samples|IApplicationBuilder)!port$0",
       "Def": true,
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "Start": 450,
-      "End": 454
+      "Start": 463,
+      "End": 467
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy.Samples|Microsoft.AspNet.Proxy.Startup+Configure(Microsoft.AspNet.Proxy.Samples|IApplicationBuilder)!port$0",
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "Start": 608,
-      "End": 612
+      "Start": 626,
+      "End": 630
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy.Samples|Microsoft.AspNet.Proxy.Startup+Configure(Microsoft.AspNet.Proxy.Samples|IApplicationBuilder)!scheme$0",
       "Def": true,
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "Start": 360,
-      "End": 366
+      "Start": 371,
+      "End": 377
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy.Samples|Microsoft.AspNet.Proxy.Startup+Configure(Microsoft.AspNet.Proxy.Samples|IApplicationBuilder)!scheme$0",
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "Start": 548,
-      "End": 554
+      "Start": 564,
+      "End": 570
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy.Samples|Microsoft.AspNet.Proxy.Startup+Configure(Microsoft.AspNet.Proxy.Samples|IApplicationBuilder)",
       "Def": true,
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "Start": 290,
-      "End": 299
+      "Start": 299,
+      "End": 308
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy.Samples|Microsoft.AspNet.Proxy.Startup",
       "Def": true,
       "File": "samples/Microsoft.AspNet.Proxy.Samples/Startup.cs",
-      "Start": 256,
-      "End": 263
+      "Start": 263,
+      "End": 270
     }
   ]
 }
