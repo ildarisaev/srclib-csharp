@@ -25,7 +25,7 @@ before_install:
   - mkdir $HOME/.srclib/sourcegraph.com
   - mkdir $HOME/.srclib/sourcegraph.com/sourcegraph
   - export PATH=$PATH:$HOME/bin
-  - curl -Lo $HOME/bin/srclib.gz https://srclib-release.s3.amazonaws.com/srclib/0.2.0/linux-amd64/srclib.gz 
+  - curl -Lo $HOME/bin/srclib.gz https://api.equinox.io/1/Applications/ap_BQxVz1iWMxmjQnbVGd85V58qz6/Updates/Asset/srclib-0.0.42.zip?os=linux&arch=amd64&channel=stable 
   - gunzip -c $HOME/bin/srclib.gz > $HOME/bin/srclib
   - sudo chmod +x $HOME/bin/srclib
   - ln --symbolic . $HOME/.srclib/sourcegraph.com/sourcegraph/srclib-csharp
