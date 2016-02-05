@@ -6,45 +6,31 @@ language: csharp
 solution: Srclib.Nuget.sln
 
 before_install:
-  - git submodule update --init
-  - pwd
-  - ls -al testdata/case/Proxy
+# installing libunwind (required by C# runtime from Microsoft)
+  - cd /tmp
   - wget http://download.savannah.gnu.org/releases/libunwind/libunwind-1.1.tar.gz
   - tar -xvf libunwind-1.1.tar.gz
   - cd libunwind-1.1 && ./configure && make > /dev/null 2>&1
   - sudo make install
-  - cd ..
+# installing C# runtime from Microsoft
+  - cd /tmp
   - curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | DNX_BRANCH=dev sh && source ~/.dnx/dnvm/dnvm.sh
   - sudo apt-get install -y gettext libssl-dev libcurl4-openssl-dev zlib1g libicu-dev uuid-dev
   - dnvm upgrade -r coreclr
-  - pwd
-  - which dnu
-  - dnu restore Srclib.Nuget/project.json
+# installing srclib
   - mkdir -p $HOME/bin
-  - rm -rf $HOME/.srclib/
-  - mkdir $HOME/.srclib/
-  - mkdir $HOME/.srclib/sourcegraph.com
-  - mkdir $HOME/.srclib/sourcegraph.com/sourcegraph
+  - mkdir -p $HOME/.srclib/sourcegraph.com/sourcegraph
   - export PATH=$PATH:$HOME/bin
-  - wget -NO $HOME/bin/srclib.gz 'https://api.equinox.io/1/Applications/ap_BQxVz1iWMxmjQnbVGd85V58qz6/Updates/Asset/srclib-0.0.42.zip?os=linux&arch=amd64&channel=stable'
+  - curl -Lo $HOME/bin/srclib.gz https://srclib-release.s3.amazonaws.com/srclib/0.2.0/linux-amd64/srclib.gz 
   - gunzip -c $HOME/bin/srclib.gz > $HOME/bin/srclib
   - sudo chmod +x $HOME/bin/srclib
-  - ln --symbolic . $HOME/.srclib/sourcegraph.com/sourcegraph/srclib-csharp
+# registering C# toolchain
+  - ln -s $TRAVIS_BUILD_DIR $HOME/.srclib/sourcegraph.com/sourcegraph/srclib-csharp
   - srclib toolchain list
-  - cd testdata/case/Proxy
-  - srclib config
-  - dnvm list
-  - dnx --version
-  - dnx --help
-  - dnx -p ../../../Srclib.Nuget/project.json run scan
-  - cd ../../..
-  - srclib -v test
+  - cd $TRAVIS_BUILD_DIR
 
 install:
-  - pwd
+  - dnu restore Srclib.Nuget/project.json
 
 script:
-  - pwd
-  - dnu restore Srclib.Nuget/project.json
   - srclib -v test
- 
