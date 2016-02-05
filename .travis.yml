@@ -20,6 +20,8 @@ before_install:
   - which dnu
   - dnu restore Srclib.Nuget/project.json
   - mkdir -p $HOME/bin
+  - mkdir $HOME/.srclib/
+  - mkdir $HOME/.srclib/sourcegraph.com
   - mkdir $HOME/.srclib/sourcegraph.com/sourcegraph
   - export PATH=$PATH:$HOME/bin
   - curl -Lo $HOME/bin/srclib.gz https://srclib-release.s3.amazonaws.com/srclib/0.2.0/linux-amd64/srclib.gz 
