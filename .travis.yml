@@ -1,8 +1,9 @@
+sudo: required
+dist: trusty
+
 language: csharp
 
 solution: Srclib.Nuget.sln
-
-sudo: true
 
 before_install:
   - git submodule update --init
