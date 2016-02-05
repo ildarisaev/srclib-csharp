@@ -5,8 +5,8 @@
       "Name": "ProxyExtension",
       "Kind": "class",
       "File": "src/Microsoft.AspNet.Proxy/ProxyExtension.cs",
-      "DefStart": 270,
-      "DefEnd": 284,
+      "DefStart": 263,
+      "DefEnd": 277,
       "Exported": true,
       "Data": {
         "FmtStrings": {
@@ -37,8 +37,8 @@
       "Name": "builder",
       "Kind": "param",
       "File": "src/Microsoft.AspNet.Proxy/ProxyExtension.cs",
-      "DefStart": 647,
-      "DefEnd": 654,
+      "DefStart": 632,
+      "DefEnd": 639,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -69,8 +69,8 @@
       "Name": "options",
       "Kind": "param",
       "File": "src/Microsoft.AspNet.Proxy/ProxyExtension.cs",
-      "DefStart": 669,
-      "DefEnd": 676,
+      "DefStart": 654,
+      "DefEnd": 661,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -101,8 +101,8 @@
       "Name": "RunProxy",
       "Kind": "method",
       "File": "src/Microsoft.AspNet.Proxy/ProxyExtension.cs",
-      "DefStart": 613,
-      "DefEnd": 621,
+      "DefStart": 598,
+      "DefEnd": 606,
       "Exported": true,
       "Data": {
         "FmtStrings": {
@@ -133,8 +133,8 @@
       "Name": "ProxyMiddleware",
       "Kind": "class",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "DefStart": 380,
-      "DefEnd": 395,
+      "DefStart": 368,
+      "DefEnd": 383,
       "Exported": true,
       "Data": {
         "FmtStrings": {
@@ -165,8 +165,8 @@
       "Name": "next",
       "Kind": "param",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "DefStart": 601,
-      "DefEnd": 605,
+      "DefStart": 583,
+      "DefEnd": 587,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -197,8 +197,8 @@
       "Name": "options",
       "Kind": "param",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "DefStart": 620,
-      "DefEnd": 627,
+      "DefStart": 602,
+      "DefEnd": 609,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -229,8 +229,8 @@
       "Name": ".ctor",
       "Kind": "ctor",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "DefStart": 569,
-      "DefEnd": 584,
+      "DefStart": 551,
+      "DefEnd": 566,
       "Exported": true,
       "Data": {
         "FmtStrings": {
@@ -261,8 +261,8 @@
       "Name": "context",
       "Kind": "param",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "DefStart": 1870,
-      "DefEnd": 1877,
+      "DefStart": 1810,
+      "DefEnd": 1817,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -293,8 +293,8 @@
       "Name": "requestMessage",
       "Kind": "local",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "DefStart": 1907,
-      "DefEnd": 1921,
+      "DefStart": 1845,
+      "DefEnd": 1859,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -325,8 +325,8 @@
       "Name": "responseMessage",
       "Kind": "local",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "DefStart": 3359,
-      "DefEnd": 3374,
+      "DefStart": 3274,
+      "DefEnd": 3289,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -357,8 +357,8 @@
       "Name": "streamContent",
       "Kind": "local",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "DefStart": 2398,
-      "DefEnd": 2411,
+      "DefStart": 2330,
+      "DefEnd": 2343,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -389,8 +389,8 @@
       "Name": "uriString",
       "Kind": "local",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "DefStart": 3052,
-      "DefEnd": 3061,
+      "DefStart": 2970,
+      "DefEnd": 2979,
       "Local": true,
       "Data": {
         "FmtStrings": {
@@ -421,8 +421,8 @@
       "Name": "Invoke",
       "Kind": "method",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "DefStart": 1851,
-      "DefEnd": 1857,
+      "DefStart": 1791,
+      "DefEnd": 1797,
       "Exported": true,
       "Data": {
         "FmtStrings": {
@@ -453,8 +453,8 @@
       "Name": "_httpClient",
       "Kind": "field",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "DefStart": 489,
-      "DefEnd": 500,
+      "DefStart": 474,
+      "DefEnd": 485,
       "Data": {
         "FmtStrings": {
           "Name": {
@@ -484,8 +484,8 @@
       "Name": "_next",
       "Kind": "field",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "DefStart": 445,
-      "DefEnd": 450,
+      "DefStart": 431,
+      "DefEnd": 436,
       "Data": {
         "FmtStrings": {
           "Name": {
@@ -515,8 +515,8 @@
       "Name": "_options",
       "Kind": "field",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "DefStart": 541,
-      "DefEnd": 549,
+      "DefStart": 525,
+      "DefEnd": 533,
       "Data": {
         "FmtStrings": {
           "Name": {
@@ -546,8 +546,8 @@
       "Name": "ProxyOptions",
       "Kind": "class",
       "File": "src/Microsoft.AspNet.Proxy/ProxyOptions.cs",
-      "DefStart": 355,
-      "DefEnd": 367,
+      "DefStart": 345,
+      "DefEnd": 357,
       "Exported": true,
       "Data": {
         "FmtStrings": {
@@ -578,8 +578,8 @@
       "Name": "BackChannelMessageHandler",
       "Kind": "property",
       "File": "src/Microsoft.AspNet.Proxy/ProxyOptions.cs",
-      "DefStart": 538,
-      "DefEnd": 563,
+      "DefStart": 523,
+      "DefEnd": 548,
       "Exported": true,
       "Data": {
         "FmtStrings": {
@@ -610,8 +610,8 @@
       "Name": "Host",
       "Kind": "property",
       "File": "src/Microsoft.AspNet.Proxy/ProxyOptions.cs",
-      "DefStart": 442,
-      "DefEnd": 446,
+      "DefStart": 429,
+      "DefEnd": 433,
       "Exported": true,
       "Data": {
         "FmtStrings": {
@@ -642,8 +642,8 @@
       "Name": "Port",
       "Kind": "property",
       "File": "src/Microsoft.AspNet.Proxy/ProxyOptions.cs",
-      "DefStart": 484,
-      "DefEnd": 488,
+      "DefStart": 470,
+      "DefEnd": 474,
       "Exported": true,
       "Data": {
         "FmtStrings": {
@@ -674,8 +674,8 @@
       "Name": "Scheme",
       "Kind": "property",
       "File": "src/Microsoft.AspNet.Proxy/ProxyOptions.cs",
-      "DefStart": 398,
-      "DefEnd": 404,
+      "DefStart": 386,
+      "DefEnd": 392,
       "Exported": true,
       "Data": {
         "FmtStrings": {
@@ -707,587 +707,587 @@
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Builder.ProxyExtension+RunProxy(Microsoft.AspNet.Proxy|IApplicationBuilder;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!builder",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyExtension.cs",
-      "Start": 647,
-      "End": 654
+      "Start": 632,
+      "End": 639
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Builder.ProxyExtension+RunProxy(Microsoft.AspNet.Proxy|IApplicationBuilder;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!builder",
       "File": "src/Microsoft.AspNet.Proxy/ProxyExtension.cs",
-      "Start": 709,
-      "End": 716
+      "Start": 692,
+      "End": 699
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Builder.ProxyExtension+RunProxy(Microsoft.AspNet.Proxy|IApplicationBuilder;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!options",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyExtension.cs",
-      "Start": 669,
-      "End": 676
+      "Start": 654,
+      "End": 661
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Builder.ProxyExtension+RunProxy(Microsoft.AspNet.Proxy|IApplicationBuilder;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyExtension.cs",
-      "Start": 748,
-      "End": 755
+      "Start": 731,
+      "End": 738
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Builder.ProxyExtension+RunProxy(Microsoft.AspNet.Proxy|IApplicationBuilder;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyExtension.cs",
-      "Start": 613,
-      "End": 621
+      "Start": 598,
+      "End": 606
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Builder.ProxyExtension",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyExtension.cs",
-      "Start": 270,
-      "End": 284
+      "Start": 263,
+      "End": 277
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!next",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 601,
-      "End": 605
+      "Start": 583,
+      "End": 587
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!next",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 657,
-      "End": 661
+      "Start": 637,
+      "End": 641
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!next",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 742,
-      "End": 746
+      "Start": 720,
+      "End": 724
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!next",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 921,
-      "End": 925
+      "Start": 891,
+      "End": 895
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1212,
-      "End": 1219
+      "Start": 1175,
+      "End": 1182
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1277,
-      "End": 1284
+      "Start": 1238,
+      "End": 1245
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1379,
-      "End": 1386
+      "Start": 1338,
+      "End": 1345
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1482,
-      "End": 1489
+      "Start": 1437,
+      "End": 1444
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1579,
-      "End": 1586
+      "Start": 1529,
+      "End": 1536
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1628,
-      "End": 1635
+      "Start": 1576,
+      "End": 1583
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1694,
-      "End": 1701
+      "Start": 1639,
+      "End": 1646
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!options",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 620,
-      "End": 627
+      "Start": 602,
+      "End": 609
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 784,
-      "End": 791
+      "Start": 759,
+      "End": 766
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 872,
-      "End": 879
+      "Start": 845,
+      "End": 852
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)!options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 965,
-      "End": 972
+      "Start": 934,
+      "End": 941
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+.ctor(Microsoft.AspNet.Proxy|RequestDelegate;Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions)",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 569,
-      "End": 584
+      "Start": 551,
+      "End": 566
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1870,
-      "End": 1877
+      "Start": 1810,
+      "End": 1817
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1982,
-      "End": 1989
+      "Start": 1919,
+      "End": 1926
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 2084,
-      "End": 2091
+      "Start": 2020,
+      "End": 2027
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 2187,
-      "End": 2194
+      "Start": 2122,
+      "End": 2129
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 2292,
-      "End": 2299
+      "Start": 2226,
+      "End": 2233
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 2432,
-      "End": 2439
+      "Start": 2364,
+      "End": 2371
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 2606,
-      "End": 2613
+      "Start": 2533,
+      "End": 2540
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3118,
-      "End": 3125
+      "Start": 3036,
+      "End": 3043
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3144,
-      "End": 3151
+      "Start": 3062,
+      "End": 3069
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3166,
-      "End": 3173
+      "Start": 3084,
+      "End": 3091
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3310,
-      "End": 3317
+      "Start": 3226,
+      "End": 3233
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3463,
-      "End": 3470
+      "Start": 3378,
+      "End": 3385
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3520,
-      "End": 3527
+      "Start": 3433,
+      "End": 3440
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3688,
-      "End": 3695
+      "Start": 3598,
+      "End": 3605
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3885,
-      "End": 3892
+      "Start": 3790,
+      "End": 3797
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 4117,
-      "End": 4124
+      "Start": 4018,
+      "End": 4025
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!context",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 4230,
-      "End": 4237
+      "Start": 4130,
+      "End": 4137
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!requestMessage$0",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1907,
-      "End": 1921
+      "Start": 1845,
+      "End": 1859
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!requestMessage$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 2472,
-      "End": 2486
+      "Start": 2403,
+      "End": 2417
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!requestMessage$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 2668,
-      "End": 2682
+      "Start": 2593,
+      "End": 2607
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!requestMessage$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 2754,
-      "End": 2768
+      "Start": 2679,
+      "End": 2693
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!requestMessage$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 2826,
-      "End": 2840
+      "Start": 2749,
+      "End": 2763
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!requestMessage$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 2968,
-      "End": 2982
+      "Start": 2887,
+      "End": 2901
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!requestMessage$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3210,
-      "End": 3224
+      "Start": 3127,
+      "End": 3141
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!requestMessage$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3271,
-      "End": 3285
+      "Start": 3187,
+      "End": 3201
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!requestMessage$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3405,
-      "End": 3419
+      "Start": 3320,
+      "End": 3334
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!responseMessage$0",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3359,
-      "End": 3374
+      "Start": 3274,
+      "End": 3289
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!responseMessage$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3555,
-      "End": 3570
+      "Start": 3468,
+      "End": 3483
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!responseMessage$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3623,
-      "End": 3638
+      "Start": 3535,
+      "End": 3550
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!responseMessage$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3812,
-      "End": 3827
+      "Start": 3719,
+      "End": 3734
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!responseMessage$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 4194,
-      "End": 4209
+      "Start": 4094,
+      "End": 4109
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!streamContent$0",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 2398,
-      "End": 2411
+      "Start": 2330,
+      "End": 2343
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!streamContent$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 2497,
-      "End": 2510
+      "Start": 2428,
+      "End": 2441
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!uriString$0",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3052,
-      "End": 3061
+      "Start": 2970,
+      "End": 2979
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)!uriString$0",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3246,
-      "End": 3255
+      "Start": 3163,
+      "End": 3172
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+Invoke(Microsoft.AspNet.Proxy|HttpContext)",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1851,
-      "End": 1857
+      "Start": 1791,
+      "End": 1797
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+_httpClient",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1718,
-      "End": 1729
+      "Start": 1661,
+      "End": 1672
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+_httpClient",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3383,
-      "End": 3394
+      "Start": 3298,
+      "End": 3309
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+_httpClient",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 489,
-      "End": 500
+      "Start": 474,
+      "End": 485
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+_next",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 445,
-      "End": 450
+      "Start": 431,
+      "End": 436
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+_next",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 913,
-      "End": 918
+      "Start": 883,
+      "End": 888
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+_options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1683,
-      "End": 1691
+      "Start": 1628,
+      "End": 1636
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+_options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1747,
-      "End": 1755
+      "Start": 1690,
+      "End": 1698
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+_options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 2998,
-      "End": 3006
+      "Start": 2917,
+      "End": 2925
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+_options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3020,
-      "End": 3028
+      "Start": 2939,
+      "End": 2947
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+_options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3067,
-      "End": 3075
+      "Start": 2985,
+      "End": 2993
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+_options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3087,
-      "End": 3095
+      "Start": 3005,
+      "End": 3013
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+_options",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3103,
-      "End": 3111
+      "Start": 3021,
+      "End": 3029
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware+_options",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 541,
-      "End": 549
+      "Start": 525,
+      "End": 533
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware",
       "File": "src/Microsoft.AspNet.Proxy/ProxyExtension.cs",
-      "Start": 731,
-      "End": 746
+      "Start": 714,
+      "End": 729
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyMiddleware",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 380,
-      "End": 395
+      "Start": 368,
+      "End": 383
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+BackChannelMessageHandler",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1756,
-      "End": 1781
+      "Start": 1699,
+      "End": 1724
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+BackChannelMessageHandler",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyOptions.cs",
-      "Start": 538,
-      "End": 563
+      "Start": 523,
+      "End": 548
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Host",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3007,
-      "End": 3011
+      "Start": 2926,
+      "End": 2930
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Host",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3096,
-      "End": 3100
+      "Start": 3014,
+      "End": 3018
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Host",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 973,
-      "End": 977
+      "Start": 942,
+      "End": 946
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Host",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyOptions.cs",
-      "Start": 442,
-      "End": 446
+      "Start": 429,
+      "End": 433
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Port",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1220,
-      "End": 1224
+      "Start": 1183,
+      "End": 1187
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Port",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1387,
-      "End": 1391
+      "Start": 1346,
+      "End": 1350
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Port",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1490,
-      "End": 1494
+      "Start": 1445,
+      "End": 1449
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Port",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3029,
-      "End": 3033
+      "Start": 2948,
+      "End": 2952
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Port",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3112,
-      "End": 3116
+      "Start": 3030,
+      "End": 3034
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Port",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyOptions.cs",
-      "Start": 484,
-      "End": 488
+      "Start": 470,
+      "End": 474
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Scheme",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1285,
-      "End": 1291
+      "Start": 1246,
+      "End": 1252
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Scheme",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1587,
-      "End": 1593
+      "Start": 1537,
+      "End": 1543
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Scheme",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 1636,
-      "End": 1642
+      "Start": 1584,
+      "End": 1590
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Scheme",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 3076,
-      "End": 3082
+      "Start": 2994,
+      "End": 3000
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions+Scheme",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyOptions.cs",
-      "Start": 398,
-      "End": 404
+      "Start": 386,
+      "End": 392
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions",
       "File": "src/Microsoft.AspNet.Proxy/ProxyExtension.cs",
-      "Start": 656,
-      "End": 668
+      "Start": 641,
+      "End": 653
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 528,
-      "End": 540
+      "Start": 512,
+      "End": 524
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions",
       "File": "src/Microsoft.AspNet.Proxy/ProxyMiddleware.cs",
-      "Start": 607,
-      "End": 619
+      "Start": 589,
+      "End": 601
     },
     {
       "DefPath": "Microsoft.AspNet.Proxy|Microsoft.AspNet.Proxy.ProxyOptions",
       "Def": true,
       "File": "src/Microsoft.AspNet.Proxy/ProxyOptions.cs",
-      "Start": 355,
-      "End": 367
+      "Start": 345,
+      "End": 357
     }
   ],
   "Docs": [
